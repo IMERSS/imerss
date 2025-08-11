@@ -1,0 +1,51 @@
+baseURL = "http://localhost/"
+languageCode = "en-us"
+title = "My Ananke Blog"
+theme = "gohugo-theme-ananke"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3
+enableRobotsTXT = true
+
+[params]
+  description = "A Hugo theme for blogdown"
+  favicon = "favicon.ico"
+  background_color_class = "bg-black"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+
+  # Social links (fill these or remove)
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = ""
+  linkedin = ""
+
+# Menu definition for the main navigation bar
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+# Languages configuration (single language)
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "My Ananke Blog"
+
